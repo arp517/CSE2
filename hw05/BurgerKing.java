@@ -13,13 +13,14 @@ public class BurgerKing{
     
     Scanner myScanner;
     myScanner = new Scanner(System.in);
-    
+
+//initial question    
 System.out.println("enter food choice");           
 String food = myScanner.next();
 
-
+//switch statement from first scanner
 switch(food){
-    case "b": 
+    case "b": //burger options
     case "B": System.out.println("enter toppings"); 
         String toppings = myScanner.next();
         switch(toppings){
@@ -31,7 +32,7 @@ switch(food){
             case "n": System.out.println(" you ordered a burger with no toppings"); break;
             default: System.out.println(" error"); break;
         } //end toppings
-     case "S": 
+     case "S": //soda options
      case "s": System.out.println(" enter type of soda");
         String soda = myScanner.next();
         switch(soda){
@@ -43,7 +44,7 @@ switch(food){
             case "C": System.out.println(" you ordered coke"); break;
             default: System.out.println(" error"); break;
         }//end soda type
-    case "f":
+    case "f": //fries options
     case "F": System.out.println(" enter size");
         String size = myScanner.next();
         switch(size){
@@ -53,7 +54,7 @@ switch(food){
             case "L": System.out.println(" you ordered large fries"); break;
             default: System.out.println(" error"); break;
         }// end size
-    default: System.out.println(" error"); break;  
+    default: System.out.println(" error"); break;  //overall error statement
      
 } //end big switch
         
