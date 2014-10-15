@@ -1,7 +1,7 @@
 //////////////////
 // Anna Putelo
 // CSE2
-// HW04
+// HW06
 //
 // write a program that generates a random number
 // and simulates a 100 spin roulette round 1000 times. 
