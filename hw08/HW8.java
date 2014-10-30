@@ -5,9 +5,6 @@
 // user to enter good input.
 
 
-
-
-
 import java.util.Scanner;
 public class HW8{
   
